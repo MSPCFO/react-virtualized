@@ -74,9 +74,9 @@
     "@babel/core": "^7.7.2",
     "@babel/plugin-external-helpers": "^7.2.0",
     "@babel/plugin-proposal-class-properties": "^7.7.0",
+    "@babel/plugin-transform-flow-comments": "^7.12.13",
     "@babel/plugin-transform-modules-commonjs": "^7.7.0",
     "@babel/plugin-transform-runtime": "^7.6.2",
-    "@babel/plugin-transform-flow-comments": "^7.12.13",
     "@babel/polyfill": "^7.7.0",
     "@babel/preset-env": "^7.7.1",
     "@babel/preset-flow": "^7.0.0",
@@ -154,5 +154,6 @@
     "transform": [
       "loose-envify"
     ]
-  }
+  },
+  "packageManager": "yarn@4.6.0+sha512.5383cc12567a95f1d668fbe762dfe0075c595b4bfff433be478dbbe24e05251a8e8c3eb992a986667c1d53b6c3a9c85b8398c35a960587fbd9fa3a0915406728"
 }
